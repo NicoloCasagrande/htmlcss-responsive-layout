@@ -2,9 +2,19 @@ section{
     padding: 20px 0;
 }
 
+section h3{
+    color: var(--terziary-color);
+}
+
 section:nth-of-type(2n){
     background-color: var(--secondary-color);
     color: white;
+}
+
+section:nth-of-type(odd) h2{
+    color: var(--secondary-color);
+    font-size: 2rem;
+    padding-top: 1.25rem;
 }
 
 .highlights .col{
@@ -12,32 +22,89 @@ section:nth-of-type(2n){
     margin: 1.25rem 0;
 }
 
+.highlights i{
+    color: var(--terziary-color);
+    font-size: 4.375rem;
+    padding-top: .9375rem;
+}
+
 .highlights .card{
     background-color: #b5ddff;
     height: 100%;
     border-radius: 1.5625rem;
     padding: .9375rem .9375rem 0 .9375rem;
+    align-items: center;
+}
+
+.highlights .card p{
+    padding: 2.1875rem 0;
+    color: #5a6e7f;
+    font-weight: bold;
+    font-size: .875rem;
+    line-height: 1.5;
     text-align: center;
 }
 
-.highlights .card:first-of-type{
-    text-align: left;
+.highlights .card h3{
+    padding-top: 1.25rem;
+}
+
+#first-card{
+    align-items: flex-start;
 }
 
 .hig-testo{
     width: 100%;
+    padding-bottom: .9375rem;
+    text-align: center;
 }
 
 .hig-img{
     width: 100%;
 }
 
+.hig-testo i, .hig-testo button{
+    font-size: 1.125rem;
+    color: white;
+}
+
+.hig-testo i{
+    padding-top: 0;
+}
+
+.highlights .card .hig-testo p{
+    text-align: left;
+}
+
+.testimonial .intro > *{
+    padding-bottom: 2.5rem;
+}
+
 @media screen and (min-width: 426px){
     .hig-testo{
         width: 50%;
+        text-align: left;
     }
+
     .hig-img{
         width: 50%;
+        align-self: flex-end;
+        padding: 4% 4% 0 4%;
+    }
+
+    .hig-img img{
+        width: 100%;
+        display: block;
+    }
+
+    .btn-blu{
+        padding: .625rem 1.25rem;
+    }
+}
+
+@media screen and (min-width: 509px){
+    .btn-blu{
+        padding: .625rem 2.8125rem;
     }
 }
 
@@ -53,6 +120,39 @@ section:nth-of-type(2n){
 
 .secondary .col{
     width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.secondary .col img{
+    width: 100%;
+}
+
+.secondary .col h3{
+    color: white;
+    margin-bottom: 2.8125rem;
+    margin-top: .9375rem;
+}
+
+.secondary .col h4{
+    margin-bottom: 1.5625rem;
+    font-size: 1.125rem;
+}
+
+.secondary .card{
+    background-color: white;
+    border-radius: 1.5625rem;
+    padding: .9375rem;
+    color: black;
+    text-align: center;
+}
+
+#palla-viola{
+    margin-top: 1.875rem;
+    margin-bottom: .9375rem;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    display: inline-flex;
 }
 
 @media screen and (min-width: 768px){
@@ -80,6 +180,8 @@ section:nth-of-type(2n){
 .test-img{
     border-radius: 50%;
     width: 30%;
+    height: 12.5rem;
+    width: 12.5rem;
 }
 
 .testimonial .col{
@@ -92,6 +194,10 @@ section:nth-of-type(2n){
     border-radius: 1.875rem;
     padding: .9375rem;
     align-items: center;
+}
+
+.testimonial .card div{
+    text-align: center;
 }
 
 @media screen and (min-width: 768px){
@@ -107,6 +213,9 @@ section:nth-of-type(2n){
         padding: 0 0 0 .9375rem;
         width:80%;
     }
+    .testimonial .card div{
+        text-align: left;
+    }
 }
 
 .benefits .col{
@@ -119,6 +228,23 @@ section:nth-of-type(2n){
     background-color: white;
     border-radius: 1.25rem;
     padding: .9375rem;
+}
+
+.benefits h2{
+    color: white;
+    font-size: 2.1875rem;
+}
+
+.benefits h3, .benefits h4{
+    color: var(--secondary-color);
+}
+
+.benefits h3{
+    font-size: 3.125rem;
+}
+
+.benefits .card > * {
+    margin-bottom: .9375rem;
 }
 
 @media screen and (min-width: 426px){

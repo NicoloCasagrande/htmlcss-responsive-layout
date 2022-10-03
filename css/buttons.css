@@ -1,0 +1,24 @@
+.generic-button{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-blu{
+    background-color: var(--terziary-color);
+    padding: .625rem 2.8125rem;
+    border-radius: 2.5rem
+}
+
+.benefits button{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: .4375rem 2.1875rem;
+    border-radius: 1.5625rem;
+}
+
+.about-us button{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: .4375rem 2.1875rem;
+    border-radius: 1.5625rem;
+}
