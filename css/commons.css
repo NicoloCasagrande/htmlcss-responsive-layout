@@ -1,0 +1,27 @@
+.container{
+    max-width: 71.25rem;
+    padding: 0 1.25rem;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    margin: 0 .625rem;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.col{
+    padding: 0 .625rem;
+}
+
+.spaced{
+    justify-content: space-between;
+}
+
+.wrapped{
+    flex-wrap: wrap;
+}

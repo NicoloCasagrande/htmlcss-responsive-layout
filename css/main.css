@@ -1,0 +1,154 @@
+section{
+    padding: 20px 0;
+}
+
+section:nth-of-type(2n){
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.highlights .col{
+    width: 100%;
+    margin: 1.25rem 0;
+}
+
+.highlights .card{
+    background-color: #b5ddff;
+    height: 100%;
+    border-radius: 1.5625rem;
+    padding: .9375rem .9375rem 0 .9375rem;
+    text-align: center;
+}
+
+.highlights .card:first-of-type{
+    text-align: left;
+}
+
+.hig-testo{
+    width: 100%;
+}
+
+.hig-img{
+    width: 100%;
+}
+
+@media screen and (min-width: 426px){
+    .hig-testo{
+        width: 50%;
+    }
+    .hig-img{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .highlights .col{
+        width: calc(100%/3);
+    }
+
+    .highlights .col:first-child{
+        width: calc((100%/3)*2);
+    }
+}
+
+.secondary .col{
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .secondary .row{
+        align-items: flex-end;
+    }
+    .secondary .col{
+        width: 50%;
+    }
+}
+
+.testimonial{
+    color: white;
+}
+
+.intro{
+    text-align: center;
+    color: black;
+}
+
+.testimonial .col{
+    width: 100%;
+}
+
+.test-img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+.testimonial .col{
+    width: 100%;
+    padding: .9375rem;
+}
+
+.testimonial .card{
+    background-color: var(--secondary-color);
+    border-radius: 1.875rem;
+    padding: .9375rem;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    .testimonial .card{
+        flex-direction: row;
+    }
+
+    .testimonial .card img{
+        width: 20%;
+    }
+
+    .testimonial .card > div{
+        padding: 0 0 0 .9375rem;
+        width:80%;
+    }
+}
+
+.benefits .col{
+    width: 100%;
+    padding: 1.25rem 0;
+}
+
+.benefits .card{
+    color: black;
+    background-color: white;
+    border-radius: 1.25rem;
+    padding: .9375rem;
+}
+
+@media screen and (min-width: 426px){
+    .benefits .col{
+        width: 50%;
+        padding: 1.25rem .9375rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .benefits .col{
+        width: calc(100%/3);
+    }
+}
+
+.about-us .col img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 426px){
+    .about-us .column{
+        flex-direction: row;
+    }
+}
+
+.started{
+    text-align: center;
+}
+
+
+
+
