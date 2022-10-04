@@ -3,9 +3,13 @@
     border: none;
 }
 
+.burger{
+    color: white;
+}
+
 .btn-blu{
     background-color: var(--terziary-color);
-    padding: .625rem 2.8125rem;
+    padding: .625rem 2.1875rem;
     border-radius: 2.5rem
 }
 
@@ -19,6 +23,14 @@
 .about-us button{
     background-color: var(--secondary-color);
     color: white;
-    padding: .4375rem 2.1875rem;
+    padding: .4375rem 1.875rem;
     border-radius: 1.5625rem;
+}
+
+.white-btn{
+    margin: 1.875rem 0;
+    color: var(--secondary-color);
+    background-color: white;
+    border-radius: 2.8125rem;
+    padding: .9375rem 3.75rem;
 }
