@@ -3,6 +3,7 @@ header{
     color: var(--secondary-color);
     padding: 1.25rem 0;
     color: white;
+    min-width: 20rem;
 }
 
 header .row{

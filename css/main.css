@@ -1,5 +1,6 @@
 section{
     padding: 20px 0;
+    min-width: 20rem;
 }
 
 section h3{
@@ -200,6 +201,11 @@ section:nth-of-type(odd) h2{
     text-align: center;
 }
 
+.testimonial .card span{
+    display: block;
+    margin-top: .9375rem;
+}
+
 @media screen and (min-width: 768px){
     .testimonial .card{
         flex-direction: row;
@@ -322,6 +328,9 @@ section:nth-of-type(odd) h2{
 
     .about-us .col:nth-of-type(2){
         width: 35%;
+    }
+    .about-us .col{
+        margin: 0 .625rem;
     }
 }
 
