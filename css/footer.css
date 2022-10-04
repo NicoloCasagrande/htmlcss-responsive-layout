@@ -6,4 +6,9 @@ footer{
 
 footer p{
     padding: 1.25rem 0;
+    max-width: 30rem;
+}
+
+footer .column{
+    align-items: center;
 }
