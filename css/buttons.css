@@ -16,6 +16,7 @@
 .benefits button{
     background-color: var(--secondary-color);
     color: white;
+    font-weight: bold;
     padding: .4375rem 2.1875rem;
     border-radius: 1.5625rem;
 }
