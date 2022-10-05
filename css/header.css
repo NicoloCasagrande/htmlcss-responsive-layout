@@ -4,6 +4,11 @@ header{
     padding: 1.25rem 0;
     color: white;
     min-width: 20rem;
+    position: sticky;
+    z-index: 200;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 header .row{
