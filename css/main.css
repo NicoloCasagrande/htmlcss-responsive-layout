@@ -235,6 +235,7 @@ section:nth-of-type(odd) h2{
     background-color: white;
     border-radius: 1.25rem;
     padding: .9375rem;
+    height: 100%;
 }
 
 .benefits h2{
