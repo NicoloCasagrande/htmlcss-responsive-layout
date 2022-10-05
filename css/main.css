@@ -265,7 +265,7 @@ section:nth-of-type(odd) h2{
     margin-bottom: .9375rem;
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 768px){
     .benefits .col{
         width: 50%;
         padding: 1.25rem .9375rem;
