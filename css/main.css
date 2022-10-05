@@ -62,6 +62,7 @@ section:nth-of-type(odd) h2{
 
 .hig-img{
     width: 100%;
+    display: block;
 }
 
 .hig-testo i, .hig-testo button{
