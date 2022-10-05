@@ -264,14 +264,14 @@ section:nth-of-type(odd) h2{
     margin-bottom: .9375rem;
 }
 
-@media screen and (min-width: 426px){
+@media screen and (min-width: 480px){
     .benefits .col{
         width: 50%;
         padding: 1.25rem .9375rem;
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 992px){
     .benefits .col{
         width: calc(100%/3);
     }
